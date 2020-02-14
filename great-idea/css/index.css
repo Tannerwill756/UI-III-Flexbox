@@ -49,9 +49,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	max-width:100%;
-	border: 1px solid grey;
-	
+	max-width:100%;	
 }
 
 html, body {
@@ -155,3 +153,82 @@ address p{
 }
 
 /* Services page Styling */
+
+	/* Header styling*/
+.services-header-img{
+	width:100%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.services-discription{
+	margin-top:1%;
+	margin-bottom:2%;
+}
+.services-discription h1{
+	font-size: 3vh;
+}
+
+	/* Body Styling*/
+.middle-info1{
+	display:flex;
+	justify-content: space-between;	
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.middle-info2{
+	display:flex;
+	justify-content: space-between;
+	margin-top: 2%;
+	margin-bottom: 2%;	
+}
+.middle-info3{
+	display:flex;
+	justify-content: space-between;
+	margin-top:2%;
+	margin-bottom: 2%;	
+}
+.middle-info1 div{
+	width:48%;
+	border:
+}
+.middle-info2 div{
+	width:48%;
+}
+.middle-info3 div{
+	width:48%;
+}
+.services-body div{
+	border:1px solid black;
+	padding:2%;
+	background-color: lightgrey;
+}
+.services-body p{
+	margin-bottom:5%;
+}
+.services-body a{
+	border:1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	color:black;
+	padding-right:3%;
+	padding-left:3%;
+	background-color:white;
+}
+
+	/* footer styling */
+.services-footer{
+	display: flex;
+	justify-content: space-between;
+}
+.service-facts{
+	width:48%;
+}
+.service-facts ul{
+	margin-top:2%;
+}
+.service-facts li{
+	list-style-type:disc;
+	list-style-position:inside;
+	margin-left:5%;
+	margin:1.5% 0 0 2%;
+}
