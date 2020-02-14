@@ -112,7 +112,8 @@ nav .links{
 }
 hr{
 	width: 100%;
-	color:black;
+	border-color:black;
+	height:1px;
 }
 /* Body styling */
 .info1{
@@ -124,9 +125,10 @@ hr{
 .info1 div{
 	width:49%;
 }
-.middle-img{
+#middle-img{
 	display: flex;
 	justify-content: center;
+	width:100%;
 }
 
 .info2{
@@ -219,6 +221,7 @@ address p{
 .services-footer{
 	display: flex;
 	justify-content: space-between;
+	margin-top:2%;
 }
 .service-facts{
 	width:48%;
