@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,12 +48,14 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width:100%;	
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 1%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,173 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Home Page */
+
+	/* Header styling */
+
+		/* Nav bar styling*/
+header nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav .links{
+	width:80%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.links a{
+	text-decoration: none;
+	color:grey;
+}
+		/* first section styling */
+.first-section{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top:2%;
+	margin-bottom: 4%;
+}
+.main-title h1{
+	font-size: 8vh;
+	text-align: center;
+}
+.main-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main-title a{
+	text-decoration: none;
+	border:1px solid black;
+	color:black;
+	padding-left:5%;
+	padding-right:5%;
+	font-size: 2.5vh;
+}
+hr{
+	width: 100%;
+	border-color:black;
+	height:1px;
+}
+/* Body styling */
+.info1{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display:flex;
+	justify-content: space-between;
+}
+.info1 div{
+	width:49%;
+}
+#middle-img{
+	display: flex;
+	justify-content: center;
+	width:100%;
+}
+
+.info2{
+	display:flex;
+	justify-content: space-between;
+	margin-top:2%;
+	margin-bottom: 4%;
+}
+.info2 div{
+	width:32%;
+}
+
+/* Footer styling*/
+footer h2{
+	margin-top:3%;
+}
+
+address p{
+	padding-top:1%;
+	padding-bottom:1%;
+}
+.copyright{
+	text-align:center;
+}
+
+/* Services page Styling */
+
+	/* Header styling*/
+.services-header-img{
+	width:100%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.services-discription{
+	margin-top:1%;
+	margin-bottom:2%;
+}
+.services-discription h1{
+	font-size: 3vh;
+}
+
+	/* Body Styling*/
+.middle-info1{
+	display:flex;
+	justify-content: space-between;	
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.middle-info2{
+	display:flex;
+	justify-content: space-between;
+	margin-top: 2%;
+	margin-bottom: 2%;	
+}
+.middle-info3{
+	display:flex;
+	justify-content: space-between;
+	margin-top:2%;
+	margin-bottom: 2%;	
+}
+.middle-info1 div{
+	width:48%;
+	border:
+}
+.middle-info2 div{
+	width:48%;
+}
+.middle-info3 div{
+	width:48%;
+}
+.services-body div{
+	border:1px solid black;
+	padding:2%;
+	background-color: lightgrey;
+}
+.services-body p{
+	margin-bottom:5%;
+}
+.services-body a{
+	border:1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	color:black;
+	padding-right:3%;
+	padding-left:3%;
+	background-color:white;
+}
+
+	/* footer styling */
+.services-footer{
+	display: flex;
+	justify-content: space-between;
+	margin-top:2%;
+}
+.service-facts{
+	width:48%;
+}
+.service-facts ul{
+	margin-top:2%;
+}
+.service-facts li{
+	list-style-type:disc;
+	list-style-position:inside;
+	margin-left:5%;
+	margin:1.5% 0 0 2%;
+}
